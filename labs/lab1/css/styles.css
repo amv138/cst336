@@ -5,16 +5,20 @@ body
     color: white;
     font-size: 1.5em;
 }
+
 h1
 {
-    font-family: 'KoHo', cursive;
-    font-size: 4em;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 3em;
     margin-bottom: 0px;
+    text-align: center;
 }
-header, main, nav, footer
+
+main, nav, footer
 {
     text-align: center;
 }
+
 
 nav a
 { /* links within "nac" container */
@@ -30,7 +34,15 @@ nav a:hover
     border-bottom:2px orange solid;
     font-size: 2em;
     transition: .9s; /*transistion effect*/
+    
+
 }
+
+nav .current
+{
+    background-color: red;
+}
+
 
 figure, div
 {
@@ -39,6 +51,7 @@ figure, div
 #me, #welcomeText
 {
     float: left;
+    text-align:left;
 }
 
 footer
@@ -46,6 +59,7 @@ footer
     clear:left;
     color: gray;
     font-size: .5em;
+    text-align:center;
 }
 
 table
@@ -84,4 +98,3 @@ ul
 {
     color:yellow;
 }
-
