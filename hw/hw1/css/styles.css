@@ -43,7 +43,7 @@ h1
     text-align: center;
 }
 
- nav, footer
+ nav
 {
     text-align: center;
 }
@@ -88,7 +88,7 @@ figure, div
 #code_image
 {
     padding-top: -100px;
-    padding-left: 600px;
+    padding-left: 550px;
     float: none;
 }
 
@@ -123,3 +123,24 @@ ul
     padding-left: 200px;
 }
 
+pre{
+    display: block;
+    font-family: monospaces;
+    white-space: pre;
+    margin: 1em;
+}
+
+#text_box
+{
+    text-align: left;
+}
+
+#csumb_logo
+{
+    float:none;
+}
+
+#buddy_logo
+{
+    float: left;
+}
