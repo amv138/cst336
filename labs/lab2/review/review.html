@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> JS Review </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            
+            function $(id){
+                return document.getElementById(id);
+            }
+            
+            function doMagic(){
+                //alert("it's working!");
+                $("catImage").src = "img/now_you_dont.png";
+                $("message").innerHTML = "... now you don't!";
+                $("message").style.color = "red";
+                
+                $("reappearBtn").style.display = "inline";
+                $("doMagicBtn").style.display = "none";
+            }
+            
+            
+        </script>
+        
+        <style>
+            #reappearBtn{
+                display:none;
+            }
+        </style>
+    </head>
+    <body>
+    <img id = "catImage" src = "img/now_you_see_me.png" alt = "Now you see me" > <br>
+    <span id = "message">Now you see me...</span>
+    
+    <br>
+    <button id = "doMagicBtn" onclick = "doMagic()">Do magic!</button>
+    
+    <button id = "reappearBtn" onclick = "reappear()">Bring it back!</button>
+    </body>
+</html>
