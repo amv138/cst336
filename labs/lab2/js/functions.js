@@ -76,7 +76,7 @@
                      
                   
                    guessLoss.innerHTML = "Incorrect guesses: " + lossCount +
-                        "| Correct: " + winCount; 
+                        " | Correct: " + winCount; 
                     guessCount++;
                     //lastResult.innerHTML = "Correct guesses: " + winCount;
                     guessField.value = '';
