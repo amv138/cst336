@@ -18,6 +18,9 @@
             
             var guessLoss = $('#missedGuess');
             var correctGuess = $('#hitGuess');
+            
+            var lossCount = 0;
+            var winCount = 0;
            
             resetButton.style.display = 'none';
             guessField.focus();
@@ -26,8 +29,6 @@
             //var resetButton;
            function checkGuess(){
                var userGuess = Number(guessField.value);
-               var lossCount = guessCount;
-               var winCount = 0;
                if(guessCount === 1){
                    guesses.innerHTML = 'Previous guesses: ';
                    
@@ -45,6 +46,7 @@
                
                else if(guessCount === 7) {
                    lastResult.innerHTML = 'Sorry, you lost!';
+                   lossCount++;
                    setGameOver();
                }
                
@@ -69,14 +71,15 @@
                }
                else
                {
+                   /*
                    if(userGuess === randomNumber)
                    {
                        lossCount--;
-                   }
+                   }*/
                      
                   
-                   guessLoss.innerHTML = "Incorrect guesses: " + lossCount +
-                        " | Correct: " + winCount; 
+                   guessLoss.innerHTML = "Games lost: " + lossCount +
+                        " | Games won: " + winCount; 
                     guessCount++;
                     //lastResult.innerHTML = "Correct guesses: " + winCount;
                     guessField.value = '';
