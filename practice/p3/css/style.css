@@ -1,0 +1,52 @@
+body{
+    text-align: center;
+}
+
+/*
+#header{
+    background-color: #e6e6e6;
+    margin-bottom: 100px;
+}*/
+#header{
+    margin-top: -22px;
+    height: 200px;
+    margin-left: -9px;
+    margin-right: -11px;
+    background-color:  #e6e6e6;
+    color: black;
+ 
+    padding-left:50px;
+    
+    
+   
+}
+#imgContainer{
+    float:left;
+}
+#title{
+    font-size: 20pt;
+    padding-top: 75px;
+}
+.slots{
+    margin-left: 60px;
+    float:left;
+}
+
+
+#Play{
+    clear:left;
+}
+
+#bottomMessages{
+    font-size: 25pt;
+    clear:left;
+}
+
+#submitBttn{
+    
+    color:white;
+    margin-top: 20px;
+    font-size: 30pt;
+    background-color: #00ff00;
+    border-radius: 8px;
+}

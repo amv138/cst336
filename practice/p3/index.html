@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Slot Machine</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    
+    <body>
+    
+    <audio id = "audio" src = "audio/jackpot.m4a">
+        
+    </audio>
+    
+        <div id = "header">
+            
+            <div id = "title">
+                <h1>Slot Machine</h1> 
+            </div>
+            
+        </div>
+       
+       <div id = "Play" class = "button">
+        <button type = "button" id = "submitBttn">Play!</button>
+        </div>
+        
+        <div id = "imgContainer">
+            <div id = "image1" class = "slots"></div>
+            <div id = "image2" class = "slots"></div>
+            <div id = "image3" class = "slots"></div>
+            
+        </div>
+        
+        
+        <div id = "bottomMessages">
+            <div id = "message"></div>
+            <div id = "message2"></div>
+            
+        </div>
+        <div id = "totalWinnings">
+            
+        </div>
+        </div>
+        
+        <script>
+        let imageArray = ["cherry","grapes","seven"];
+        var randomImage;
+        var totalWinnings = 0;
+        
+        
+        
+        $("#Play").on("click" , function() {
+            
+            let randomIndex1 = Math.floor(Math.random() * 3);
+            randomImage = imageArray[randomIndex1];
+            $("#image1").html("<img src = 'img/" + randomImage+".png' />");
+            
+            let randomIndex2 = Math.floor(Math.random() * 3);
+            randomImage = imageArray[randomIndex2];
+            $("#image2").html("<img src = 'img/" + randomImage+".png' />");
+            
+            let randomIndex3 = Math.floor(Math.random() * 3);
+            randomImage = imageArray[randomIndex3];
+            $("#image3").html("<img src = 'img/" + randomImage+".png' />");
+            
+            
+            if(randomIndex1 == 0 && randomIndex2 == 0 && randomIndex3 == 0){
+                
+                $("#message").html("Congratulations!");
+                $("#message2").html("You won: " + 100);
+                totalWinnings += 100;
+                $("#totalWinnings").html("Total Winnings: $" + totalWinnings);
+            }
+            
+            else if(randomIndex1 == 1 && randomIndex2 == 1 && randomIndex3 == 1){
+                $("#message").html("Congratulations!");
+                $("#message2").html("You won: " + 300);
+                totalWinnings += 300;
+                $("#totalWinnings").html("Total Winnings: $" + totalWinnings);
+            }
+            
+            else if(randomIndex1 == 2 && randomIndex2 == 2 && randomIndex3 == 2){
+                var audio = document.getElementById("audio");
+                $("#message").html("JACKPOT!");
+                $("#message2").html("You won: " + 500);
+                audio.play();
+                totalWinnings += 500;
+                $("#totalWinnings").html("Total Winnings: $" + totalWinnings);
+            }
+            
+            else{
+                $("#message").html("Try again.");
+                $("#totalWinnings").html("Total Winnings: $" + totalWinnings);
+            }
+        });
+        
+        
+        </script>
+    </body>
+    
+</html>
