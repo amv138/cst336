@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+    clear:left;
+    background-color: #5DBCD2;
+    background-image: url("../img/pokemon1.png");
+    color: yellow;
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+.jumbotron{
+    margin-top: -50px;
+    background-color:#79C9FA;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.column{
+    text-align: center;
+    clear:left;
+}
+
+#submitButton{
+    
+    color:white;
+    margin-top: 20px;
+    font-size: 30pt;
+    background-color: #bf1578;
+    border-radius: 8px;
+}

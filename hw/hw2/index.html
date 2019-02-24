@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Pokemon </title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+      <div class="jumbotron">
+        <img src = "img/pokeball.png" alt = "Pokeball">
+        </div>
+        
+        <h2><span id="pikachuImg1"></span>Who's that Pokemon!??</h2>
+        <img src = "img/pikachu_bl.png"  class="center" id="imgClickAndChange"></br>
+        <input type = "text" id="q1">
+        <div id="q1_feedback">
+        </div>
+        </br>
+
+        
+        <h2><span id="markImg2"></span>Select the name of this Pokemon!</h2>
+        <img src ="img/gengar.png"  class="center">
+        </br>
+        <select id="q2">
+            <option value="">Select One</option>
+            <option>Mew</option>
+            <option>Pikachu</option>
+            <option>Gengar</option>
+            <option>I don't know!</option>
+        </select>
+        <div id="q2_feedback">
+        </div>
+        
+        </br>
+        
+        <h2><span id="markImg3"></span> Which pokemon is this!??</h2>
+        <img src = "img/kraby.png" class = "center">
+        <input type="radio" name="q3" id="kraby" value="Kraby"><label for="Kraby">Kraby </label>
+        <input type="radio" name="q3" id="pidgey" value="Pidgey"><label for="pidgey">Pidgey </label>
+        <input type="radio" name="q3" id="scyther" value="Scyther"><label for="scyther">Scyther </label>
+        <input type="radio" name="q3" id="chansey" value="Chansey"><label for="chansey">Chansey </label>
+        <div id ="q3_feedback"></div>
+        <br></br>
+        
+        <h2><span id="markImg4"></span>Select the fire Pokemon</h2>
+
+        <img src = "img/squirtle.png" id = "poke">
+        <input type="checkbox" id="Squirtle"><label for="Squirtle">Squirtle</label>
+
+        
+   
+        <img src = "img/shellder.png"  id = "poke">
+        <input type="checkbox" id="Shellder"><label for="Shellder">Shellder</label>
+
+        
+
+        <img src = "img/charmander.png">
+        <input type="checkbox" id="Charmander"><label for ="Charmander">Charmander</label>
+
+        
+       
+        <img src = "img/arcanine.png">
+        <input type="checkbox" id="Arcanine" value="Arcanine"><label for ="Arcanine">Arcanine</label>
+  
+        <div id = "q4_feedback"></div>
+        
+        </br></br>
+         <h2><span id="markImg5"></span>Select Mew!</h2>
+        <img src="img/mew.png" alt="Mew" class="active" id="mew">
+        <img src="img/mewtwo.png" alt="Mewtwo" class="active" id="mewtwo">
+        <img src="img/celebi.png" alt="Celebi" class="active" id="celebi">
+        <div id = "q5_feedback"></div>
+        
+        
+        <h2 id = "total"></h2>
+        </br>
+         <div id = "Play" class = "button">
+        <button id="submitButton"> Submit </button>
+        </div>
+        <h2 id="validSubmission"></h2>
+          
+    </body>
+    
+    <script>
+    
+     let q1_answer = "pikachu";
+     let q2_answer = "Gengar";
+     let q3_answer = "Kraby";
+      
+     $(".active").on( "click", function() {
+             $(".active").css("background","");
+             $(this).css("background","yellow");
+             //alert($(this).attr("id"));
+             q5_response = $(this).attr("id");
+        });
+        
+        function isFormValid(){
+            let isValid = true;
+            if ($("#q2").val() == "") {
+                isValid = false;
+                $("#validSubmission").html("Question 2 not answered");
+            }
+            return isValid;
+        }
+      $("#submitButton").on( "click", function() {
+            
+            $("#validSubmission").html("");
+            
+            if (!isFormValid()) {   //isFormValid == false
+                return;
+            }
+            
+            
+            let q1_response = $("#q1").val().toLowerCase();
+            let q2_response = $("#q2").val();
+            let q3_response = $("input[name=q3]:checked").val();
+            let q5_answer = "mew";
+            let total_points = 0;
+            document.getElementById('imgClickAndChange').src="img/pikachu.png";
+             
+            //Question 1
+            if(q1_response == q1_answer) {
+                $("#q1_feedback").html("Correct!");
+                $("#q1_feedback").attr("class", "correct");
+                total_points += 20;
+            }
+            else {
+                 $("#q1_feedback").html("Inorrect!");
+              $("#q2_feedback").attr("class", "incorrect");
+            }
+            
+             //Question 2
+            if (q2_response == q2_answer) {
+                $("#q2_feedback").html("Correct!");
+                 $("#q2_feedback").attr("class", "correct");
+                 total_points += 20;
+            }
+            else {
+                $("#q2_feedback").html("Incorrect!");
+                 $("#q2_feedback").attr("class", "incorrect");
+            }
+            
+             //Question 3
+            if (q3_response == q3_answer) {
+                $("#q3_feedback").html("Correct!");
+                $("#q3_feedback").attr("class", "correct");
+                total_points += 20;
+            }
+            else {
+                $("#q3_feedback").html("Incorrect!");
+                 $("#q3_feedback").attr("class", "incorrect");
+            }
+           
+           if ($("#Charmander").is(":checked") && $("#Arcanine").is(":checked") && !$("#Squirtle").is(":checked")&& !$("#Shellder").is(":checked")){
+                $("#q4_feedback").html("Correct");
+                  $("#q4_feedback").attr("class", "correct");
+                total_points += 20;
+            } 
+            else {
+                   $("#q4_feedback").html("Incorrect");
+                   $("#markImg4").html("<img src ='img/xmark.png' alt='xmark'>");
+                    $("#q4_feedback").attr("class", "incorrect");
+            }
+              //Question 5
+            if (q5_response == q5_answer) {
+                $("#q5_feedback").html("Correct");
+                  $("#q5_feedback").attr("class", "correct");
+                total_points += 20;
+            } else {
+                $("#q5_feedback").html("Incorrect");
+             
+                 $("#q5_feedback").attr("class", "incorrect");
+            }
+            
+            if(total_points == 100){
+                alert("Congratulations! You got everything correct!");
+            }
+             $("#total").html("The total Score is: " + total_points);
+            totalTimes++;
+            
+        });
+    </script>
+</html>
