@@ -36,3 +36,8 @@ body {
     background-color: #bf1578;
     border-radius: 8px;
 }
+
+#buddy{
+    float:left;
+    margin-top: 50px;
+}
