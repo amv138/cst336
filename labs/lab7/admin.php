@@ -33,18 +33,18 @@ if (!isset($_SESSION['adminName'])) {
                 $.ajax({
 
                     type: "GET",
-                    url: "../lab6_2/api/getProducts.php",
+                    url: "../lab6/api/getProducts.php",
                     dataType: "json",
                     success: function(data,status) {
                       //alert(data[0].productName);
                       data.forEach(function(product){
                           $("#products").append("<div class='row'>" + 
                                                 "<div class='col1'>" + 
-                                                "[<a href='update.php?productId="+product.productId+"'> Update </a>]" +
+                                                "<a class=\"btn btn-primary\"  href='update.php?productId="+product.productId+"'> Update </a>" +
                                                 //"[<a href='delete.php?productId="+product.productId+"'> Delete </a>]" +
                                                 "<form action='delete.php' method='post' onsubmit='return confirmDelete()'>"+
                                                 "<input type='hidden' name='productId' value='"+ product.productId + "'>" +
-                                                "<button>Delete</button></form>" +
+                                                "<button class=\"btn btn-outline-danger\">Delete</button></form>" +
                                                 "<a target='productIframe' onclick='openModal()' href='productInfo.php?productId="+product.productId+"'> " + product.productName + "</a></div>"+
                                                 "<div class='col2'>"+"$" + product.productPrice + "</div>"+
                                                 "</div><br>");
@@ -121,7 +121,7 @@ if (!isset($_SESSION['adminName'])) {
         </button>
       </div>
       <div class="modal-body">
-        <iframe name="productIframe" src="#" width="400" height="400"></iframe>
+        <iframe name="productIframe"  width="400" height="400"></iframe>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>

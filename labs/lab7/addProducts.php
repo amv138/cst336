@@ -38,7 +38,7 @@ if (!isset($_SESSION['adminName'])) {
     <script>
         $.ajax({
                     type: "GET",
-                    url: "../lab6_2/api/getCategories.php",
+                    url: "../lab6/api/getCategories.php",
                     dataType: "json",
                     success: function(data, status) {
                         data.forEach(function(key) {
