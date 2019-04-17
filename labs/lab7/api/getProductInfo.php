@@ -1,7 +1,7 @@
 <?php
 
     
-    include '../../inc/dbConnection.php';
+    include '../../../inc/dbConnection.php';
     $conn = getDatabaseConnection("ottermart");
 
     $productId = $_GET['productId'];
