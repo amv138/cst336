@@ -7,7 +7,7 @@ $password = "";
 
 // Establishing a connection
 $dbConn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);*/
-include '../../../inc/dbConnection.php';
+include 'dbConnection.php';
 
 $dbConn = getDatabaseConnection("ottermart");
 

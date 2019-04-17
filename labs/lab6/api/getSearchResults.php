@@ -1,6 +1,6 @@
 <?php
 
-include '../../../inc/dbConnection.php';
+include 'dbConnection.php';
 
 $conn = getDatabaseConnection("ottermart");
 
@@ -20,7 +20,7 @@ if (!empty($product)) { //user entered a product keyword
 
 //Checks whether user has slected a category of product
 if(!empty($_GET['category'])){
-    $sql .= " AND catId = :categoryId";
+    $sql .= " AND catId = categoryId";
     $namedParameters[":categoryId"] = $_GET['category'];
 }
 
