@@ -4,7 +4,7 @@
 //receives these parameters: action, url, keyword
 
 // :keyword = "named parameters"
- include '../../../inc/dbConnection.php';
+ include 'dbConnection.php';
  $conn = getDatabaseConnection("c9");
 
  $action = $_GET['action'];
