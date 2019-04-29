@@ -1,0 +1,382 @@
+[29-Apr-2019 19:21:15 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 7
+[29-Apr-2019 19:21:15 UTC] PHP Stack trace:
+[29-Apr-2019 19:21:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:0
+[29-Apr-2019 19:21:15 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 7
+[29-Apr-2019 19:21:15 UTC] PHP Stack trace:
+[29-Apr-2019 19:21:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:0
+[29-Apr-2019 19:21:15 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 8
+[29-Apr-2019 19:21:15 UTC] PHP Stack trace:
+[29-Apr-2019 19:21:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:0
+[29-Apr-2019 19:29:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 16
+[29-Apr-2019 19:30:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 16
+[29-Apr-2019 19:35:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 16
+[29-Apr-2019 19:35:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 16
+[29-Apr-2019 19:35:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 16
+[29-Apr-2019 19:35:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 16
+[29-Apr-2019 19:35:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 16
+[29-Apr-2019 19:35:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 16
+[29-Apr-2019 19:35:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'amv' in 'where clause'' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 16
+[29-Apr-2019 19:35:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'amv' in 'where clause'' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 16
+[29-Apr-2019 19:35:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'amv' in 'where clause'' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 16
+[29-Apr-2019 19:35:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'amv' in 'where clause'' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 16
+[29-Apr-2019 19:35:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'amv' in 'where clause'' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 16
+[29-Apr-2019 19:35:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'amv' in 'where clause'' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 16
+[29-Apr-2019 19:35:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'amv' in 'where clause'' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 16
+[29-Apr-2019 19:36:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'amv' in 'where clause'' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 16
+[29-Apr-2019 19:36:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'amv' in 'where clause'' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 16
+[29-Apr-2019 19:36:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'amv' in 'where clause'' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 16
+[29-Apr-2019 19:36:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'amv' in 'where clause'' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 16
+[29-Apr-2019 19:36:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'amv' in 'where clause'' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 16
+[29-Apr-2019 19:36:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'amv' in 'where clause'' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 16
+[29-Apr-2019 19:36:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'amv' in 'where clause'' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 16
+[29-Apr-2019 19:37:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'amv' in 'where clause'' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 16
+[29-Apr-2019 19:37:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'amv' in 'where clause'' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 16
+[29-Apr-2019 19:37:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'amv' in 'where clause'' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 16
+[29-Apr-2019 19:38:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'amv' in 'where clause'' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 16
+[29-Apr-2019 19:38:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'amv' in 'where clause'' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 16
+[29-Apr-2019 19:38:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'amv' in 'where clause'' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 16
+[29-Apr-2019 19:38:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'amv' in 'where clause'' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 16
+[29-Apr-2019 19:38:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'amv' in 'where clause'' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 16
+[29-Apr-2019 19:38:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'amv' in 'where clause'' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 16
+[29-Apr-2019 19:38:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'amv' in 'where clause'' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 16
+[29-Apr-2019 19:38:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'amv' in 'where clause'' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 16
+[29-Apr-2019 19:38:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'amv' in 'where clause'' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 16
+[29-Apr-2019 19:39:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 16
+[29-Apr-2019 19:41:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(17): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 17
+[29-Apr-2019 19:44:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'email' cannot be null' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 19
+[29-Apr-2019 19:44:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'email' cannot be null' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 19
+[29-Apr-2019 19:44:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'email' cannot be null' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 19
+[29-Apr-2019 19:44:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'email' cannot be null' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 19
+[29-Apr-2019 19:44:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'email' cannot be null' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 19
+[29-Apr-2019 19:44:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'email' cannot be null' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 19
+[29-Apr-2019 19:44:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'email' cannot be null' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 19
+[29-Apr-2019 19:44:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'email' cannot be null' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 19
+[29-Apr-2019 19:44:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'email' cannot be null' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 19
+[29-Apr-2019 19:44:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'email' cannot be null' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 19
+[29-Apr-2019 19:50:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'email' cannot be null' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 19
+[29-Apr-2019 19:50:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'email' cannot be null' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 19
+[29-Apr-2019 19:50:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'email' cannot be null' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 19
+[29-Apr-2019 19:50:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'email' cannot be null' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 19
+[29-Apr-2019 19:51:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'email' cannot be null' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 19
+[29-Apr-2019 19:53:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(22): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 22
+[29-Apr-2019 19:56:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''score', 'taken') 
+    VALUES ('amv@gmail.com', NULL, '')' at line 1' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(21): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 21
+[29-Apr-2019 19:57:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''score', 'taken') 
+    VALUES (NULL, NULL, NULL)' at line 1' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(21): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 21
+[29-Apr-2019 19:57:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''score', 'taken') 
+    VALUES (NULL, NULL, NULL)' at line 1' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(21): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 21
+[29-Apr-2019 19:57:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''score', 'taken') 
+    VALUES (NULL, NULL, NULL)' at line 1' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(21): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 21
+[29-Apr-2019 19:57:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''score', 'taken') 
+    VALUES (NULL, NULL, NULL)' at line 1' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(21): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 21
+[29-Apr-2019 19:57:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''score', 'taken') 
+    VALUES (NULL, NULL, NULL)' at line 1' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(21): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 21
+[29-Apr-2019 19:57:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''score', 'taken') 
+    VALUES (NULL, NULL, NULL)' at line 1' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(21): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 21
+[29-Apr-2019 19:58:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'email' cannot be null' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(21): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 21
+[29-Apr-2019 19:59:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'score' cannot be null' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(21): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 21
+[29-Apr-2019 19:59:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'email' cannot be null' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(21): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 21
+[29-Apr-2019 20:00:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(23): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 23
+[29-Apr-2019 20:03:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''score') 
+    VALUES (NULL, NULL)' at line 1' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(21): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 21
+[29-Apr-2019 20:04:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'email' cannot be null' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(21): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 21
+[29-Apr-2019 20:08:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'email' cannot be null' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(21): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 21
+[29-Apr-2019 20:09:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:24
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(24): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 24
+[29-Apr-2019 20:11:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:24
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(24): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 24
+[29-Apr-2019 20:14:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'email' cannot be null' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(21): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 21
+[29-Apr-2019 20:15:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 23
+[29-Apr-2019 20:16:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'email' cannot be null' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 23
+[29-Apr-2019 20:16:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'email' cannot be null' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 23
+[29-Apr-2019 20:16:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'email' cannot be null' in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p11/api/checkAnswer.php on line 23
